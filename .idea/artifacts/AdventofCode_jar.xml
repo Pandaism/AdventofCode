@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="AdventofCode:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/AdventofCode_jar</output-path>
+    <root id="archive" name="AdventofCode.jar">
+      <element id="module-output" name="AdventofCode" />
+      <element id="module-output" name="Inverse Captcha" />
+    </root>
+  </artifact>
+</component>
