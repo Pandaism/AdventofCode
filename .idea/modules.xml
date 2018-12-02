@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AdventofCode.iml" filepath="$PROJECT_DIR$/AdventofCode.iml" />
       <module fileurl="file://$PROJECT_DIR$/Chronal Calibration/Chronal Calibration.iml" filepath="$PROJECT_DIR$/Chronal Calibration/Chronal Calibration.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Inventory Management System/Inventory Management System.iml" filepath="$PROJECT_DIR$/Inventory Management System/Inventory Management System.iml" />
     </modules>
   </component>
 </project>
