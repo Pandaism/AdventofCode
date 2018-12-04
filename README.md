@@ -2,7 +2,7 @@
 https://adventofcode.com/2018
 
 ## Introduction
-Advent of Code is an advent calender updated with programming challenges every day in December.
+Advent of Code is an advent calender updated with programming challenges every day in December until Dec 25th.
 I decided to join the challenge this year after feeling confident enough about my problem solving skills.
 
 ## Information
