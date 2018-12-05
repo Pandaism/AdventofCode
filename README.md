@@ -13,4 +13,5 @@ those languages.
 
 ## Current Stats
 8 Gold Stars
+
 Rank 27 in The Programmer's Hangout Discord Private Leaderboard
