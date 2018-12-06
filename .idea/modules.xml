@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AdventofCode.iml" filepath="$PROJECT_DIR$/AdventofCode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Alchemical Reduction/Alchemical Reduction.iml" filepath="$PROJECT_DIR$/Alchemical Reduction/Alchemical Reduction.iml" />
       <module fileurl="file://$PROJECT_DIR$/Chronal Calibration/Chronal Calibration.iml" filepath="$PROJECT_DIR$/Chronal Calibration/Chronal Calibration.iml" />
       <module fileurl="file://$PROJECT_DIR$/Inventory Management System/Inventory Management System.iml" filepath="$PROJECT_DIR$/Inventory Management System/Inventory Management System.iml" />
       <module fileurl="file://$PROJECT_DIR$/No Matter How You Slice It/No Matter How You Slice It.iml" filepath="$PROJECT_DIR$/No Matter How You Slice It/No Matter How You Slice It.iml" />
