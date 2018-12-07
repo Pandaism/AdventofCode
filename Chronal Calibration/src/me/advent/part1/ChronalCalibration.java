@@ -18,15 +18,9 @@ public class ChronalCalibration {
         int total = 0;
 
         while((line = reader.readLine()) != null) {
-            int num = Integer.parseInt(line.substring(1));
-
-            if(line.charAt(0) == '+') {
-                total += num;
-            } else {
-                total -= num;
-            }
+            total += Integer.parseInt(line);
         }
 
-        System.out.println(total);
+        System.out.printf("The answer: %d", total);
     }
 }
