@@ -7,7 +7,9 @@ import java.io.IOException;
 import java.net.URISyntaxException;
 import java.nio.file.Paths;
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 /**
  * @author Pandaism
@@ -19,18 +21,15 @@ public class ChronalCalibration {
         BufferedReader reader = new BufferedReader(new FileReader(inputFile));
         String line;
 
-        int total = 0;
-        List<String> frequencies = new ArrayList<>();
-        List<Integer> storage = new ArrayList<>();
-        storage.add(total);
-
+        List<Integer> frequencies = new ArrayList<>();
         while((line = reader.readLine()) != null) {
-            frequencies.add(line);
+            frequencies.add(Integer.parseInt(line));
         }
 
+        Set<Integer> storage = new HashSet<>();
+        int total = 0;
         for(int i = 0; i < frequencies.size(); i++) {
-            String frequency = frequencies.get(i);
-            int num = Integer.parseInt(frequency);
+            int num = frequencies.get(i);
 
             total += num;
 
@@ -46,6 +45,6 @@ public class ChronalCalibration {
         }
 
 
-        System.out.println(total);
+        System.out.printf("The answer: %d ", total);
     }
 }
