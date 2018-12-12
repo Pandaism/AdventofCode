@@ -12,6 +12,6 @@ do not work and have finish the day challenge. I will also be planning on solvin
 those languages. 
 
 ## Current Stats
-12 Gold Stars
+16 Gold Stars
 
-Rank 17 in The Programmer's Hangout Discord Private Leaderboard
+Rank 20 in The Programmer's Hangout Discord Private Leaderboard
