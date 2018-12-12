@@ -10,19 +10,11 @@ import java.util.*;
  * @date 12/12/2018 : 5:17 AM
  */
 
-//85min 09s 761ms
 public class MarbleMania {
     public static void main(String[] args) throws URISyntaxException, IOException {
         File testcase = Paths.get(ClassLoader.getSystemResource("PuzzleInput.txt").toURI()).toFile();
         BufferedReader reader = new BufferedReader(new FileReader(testcase));
         String line = reader.readLine();
-//        line = reader.readLine();
-//
-//        File out = new File("out.txt");
-//        out.createNewFile();
-//        BufferedWriter writer = new BufferedWriter(new FileWriter(out));
-//        StringBuilder sb = new StringBuilder();
-
 
         String[] split = line.split(" ");
 
@@ -67,21 +59,12 @@ public class MarbleMania {
                     pointer += 2;
                 }
             }
-
-//            sb.append("[" + i + "] ");
-//            for(Integer j : gameStack) {
-//                sb.append(j + " ");
-//            }
-//
-//            sb.append("\n");
-
             if (currentPlayer + 1 > players) {
                 currentPlayer = 1;
             } else {
                 currentPlayer++;
             }
 
-            //System.out.println(i);
         }
 
         int winner = -1;
@@ -96,8 +79,6 @@ public class MarbleMania {
             }
         }
 
-//        writer.write(sb.toString());
-//        writer.close();
         System.out.printf("Winner: %d with score %d\n", winner, score.get(winner));
 
     }
