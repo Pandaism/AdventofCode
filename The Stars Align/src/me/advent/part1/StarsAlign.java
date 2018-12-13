@@ -32,7 +32,7 @@ public class StarsAlign {
 
         //Reduce size of sample to a more reasonable size
         int height = 0;
-
+        int time = 0;
         while(height > 9 || height == 0) {
             ArrayList<Integer> characterHeight = new ArrayList<>();
 
@@ -47,6 +47,7 @@ public class StarsAlign {
             int min = characterHeight.stream().min(Comparator.comparing(Integer::intValue)).get();
 
             height = max - min;
+            time++;
         }
 
         for(Star star : stars) {
@@ -83,6 +84,8 @@ public class StarsAlign {
         writer.write(sb.toString());
 
         writer.close();
+
+        System.out.printf("Time of completion: %d", time - 1);
     }
 
     private static int getYLimit(ArrayList<Star> stars) {
