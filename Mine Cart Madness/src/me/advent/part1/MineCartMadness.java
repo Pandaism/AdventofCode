@@ -219,10 +219,6 @@ public class MineCartMadness {
             this.intersectionTurn = 1;
         }
 
-        public int getIntersectionTurn() {
-            return intersectionTurn;
-        }
-
         void incIntersectionTurn() {
             this.intersectionTurn += 1;
         }
