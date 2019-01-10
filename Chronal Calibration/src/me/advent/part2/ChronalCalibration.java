@@ -39,12 +39,13 @@ public class ChronalCalibration {
                 storage.add(total);
             }
 
+            //Return to beginning of the list
             if(i == frequencies.size() - 1) {
                 i = -1;
             }
         }
 
 
-        System.out.printf("The answer: %d ", total);
+        System.out.printf("The answer: %d\n", total);
     }
 }

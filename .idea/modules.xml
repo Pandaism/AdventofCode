@@ -4,14 +4,18 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AdventofCode.iml" filepath="$PROJECT_DIR$/AdventofCode.iml" />
       <module fileurl="file://$PROJECT_DIR$/Alchemical Reduction/Alchemical Reduction.iml" filepath="$PROJECT_DIR$/Alchemical Reduction/Alchemical Reduction.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Beverage Bandits/Beverage Bandits.iml" filepath="$PROJECT_DIR$/Beverage Bandits/Beverage Bandits.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Chocolate Charts/Chocolate Charts.iml" filepath="$PROJECT_DIR$/Chocolate Charts/Chocolate Charts.iml" />
       <module fileurl="file://$PROJECT_DIR$/Chronal Calibration/Chronal Calibration.iml" filepath="$PROJECT_DIR$/Chronal Calibration/Chronal Calibration.iml" />
       <module fileurl="file://$PROJECT_DIR$/Chronal Charge/Chronal Charge.iml" filepath="$PROJECT_DIR$/Chronal Charge/Chronal Charge.iml" />
       <module fileurl="file://$PROJECT_DIR$/Chronal Coordinates/Chronal Coordinates.iml" filepath="$PROJECT_DIR$/Chronal Coordinates/Chronal Coordinates.iml" />
       <module fileurl="file://$PROJECT_DIR$/Inventory Management System/Inventory Management System.iml" filepath="$PROJECT_DIR$/Inventory Management System/Inventory Management System.iml" />
       <module fileurl="file://$PROJECT_DIR$/MarbleMania/MarbleMania.iml" filepath="$PROJECT_DIR$/MarbleMania/MarbleMania.iml" />
       <module fileurl="file://$PROJECT_DIR$/Memory Maneuver/Memory Maneuver.iml" filepath="$PROJECT_DIR$/Memory Maneuver/Memory Maneuver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Mine Cart Madness/Mine Cart Madness.iml" filepath="$PROJECT_DIR$/Mine Cart Madness/Mine Cart Madness.iml" />
       <module fileurl="file://$PROJECT_DIR$/No Matter How You Slice It/No Matter How You Slice It.iml" filepath="$PROJECT_DIR$/No Matter How You Slice It/No Matter How You Slice It.iml" />
       <module fileurl="file://$PROJECT_DIR$/Repose Record/Repose Record.iml" filepath="$PROJECT_DIR$/Repose Record/Repose Record.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Subterranean Sustainability/Subterranean Sustainability.iml" filepath="$PROJECT_DIR$/Subterranean Sustainability/Subterranean Sustainability.iml" />
       <module fileurl="file://$PROJECT_DIR$/The Stars Align/The Stars Align.iml" filepath="$PROJECT_DIR$/The Stars Align/The Stars Align.iml" />
       <module fileurl="file://$PROJECT_DIR$/The Sum of Its Parts/The Sum of Its Parts.iml" filepath="$PROJECT_DIR$/The Sum of Its Parts/The Sum of Its Parts.iml" />
     </modules>

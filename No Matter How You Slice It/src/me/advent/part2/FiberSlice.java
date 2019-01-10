@@ -30,9 +30,9 @@ public class FiberSlice {
         ArrayList<Integer> ids = new ArrayList<>();
 
         while ((line = reader.readLine()) != null) {
-            String indexes = line.substring(line.indexOf('@') + 1, line.indexOf(':')).replaceAll(" ", "");
-            String dimension = line.substring(line.indexOf(':') + 1).replaceAll(" ", "");
-            String id = line.substring(0, line.indexOf('@')).replaceAll(" ", "").replaceAll("#", "");
+            String indexes = line.substring(line.indexOf('@') + 1, line.indexOf(':')).trim();
+            String dimension = line.substring(line.indexOf(':') + 1).trim();
+            String id = line.substring(0, line.indexOf('@')).trim().replaceAll("#", "");
 
             int x = Integer.parseInt(indexes.substring(indexes.indexOf(',') + 1));
             int y = Integer.parseInt(indexes.substring(0, indexes.indexOf(',')));

@@ -9,6 +9,7 @@ import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Optional;
 
 /**
  * @author Pandaism
@@ -27,11 +28,20 @@ public class IMS {
             char firstLetter = line.charAt(0);
 
             ArrayList<String> strings;
+            /*Split inputs into groups based on the first char
+                eg.
+                a - auhskdklmfdiks, auenmfkmdk, aasdfieikmdsksdfj
+                b - baidfjakoeokld, badisfjdsakmesms, baksdjfkasfjie
+                etc...
+            */
+
             if(groups.containsKey(firstLetter)) {
                 strings = groups.get(firstLetter);
 
+                // Compare input with the appropriate grouping
                 for(String value : groups.get(firstLetter)) {
                     int replacement = 0;
+
 
                     for(int i = 0; i < value.length(); i++) {
                         if(replacement > 1) {

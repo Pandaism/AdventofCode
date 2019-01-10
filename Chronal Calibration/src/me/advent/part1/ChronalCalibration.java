@@ -21,6 +21,6 @@ public class ChronalCalibration {
             total += Integer.parseInt(line);
         }
 
-        System.out.printf("The answer: %d", total);
+        System.out.printf("The answer: %d\n", total);
     }
 }
