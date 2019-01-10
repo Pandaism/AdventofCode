@@ -8,7 +8,7 @@ I decided to join the challenge as it starts this year after feeling confident e
 ## Information
 I am unable to start challenges at the schedule release time due to my work schedule and will be doing them whenever I can. The
 code pushed to the repo is the code, I use to solve the problem and I will try to make it look cleaner and optimized on days I
-do not work and have finished the day challenge. I will also be planning on solving the challenge of Python and C++ to practice those languages.
+do not work and have finished the day challenge. I will also be planning on solving the challenge of C# and C++ to practice those languages.
 
 ## Current Stats
 28 Gold Stars
